@@ -201,7 +201,7 @@ class Hangman:
             self.guess_letter(guess)
         else:
             self.guess_word(guess)
-
+            
     def check_for_completeness(self):
         """Checks if the game is complete or not. If so, it will toggle the game_complete attribute"""
         if self.correct_guesses == self.valid_guesses:
